@@ -1,0 +1,45 @@
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: black;
+	
+}
+body{
+	height: 1500px;
+	display: flex;
+	flex-direction: column;
+	/*min-height: 100vh;*/
+}
+/* прибиваем футер вниз */
+main{
+	margin-top: 80px;
+	display: flex;
+	flex: 1 0 auto;
+}
+.kg{
+	display: flex;
+	flex-direction:inherit
+}
+.ammort{
+	display: flex;
+}
+#mobile-demo{
+	display: none;
+}
+.parallax-container{
+	height: 300px;
+}
+.waves-mycolor{
+	background: red;
+}
+.btn-large{
+	margin-bottom: 40px;
+}
+.row{
+margin-bottom: 20px;
+}
+.kgd{
+	display: flex;
+}
